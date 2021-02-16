@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  demo:
+    image: henrifola/blogsite:latest
+    container_name: blogsite
+    ports:
+      - 8080:8080
