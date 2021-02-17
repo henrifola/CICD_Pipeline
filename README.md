@@ -2,4 +2,4 @@
 
 # CICD_Pipeline
 
-Random Java Spring Boot React project, testing out some CICD azure pipeline thingies
+Random Java SpringBoot React project, testing out some CICD azure pipeline thingies
