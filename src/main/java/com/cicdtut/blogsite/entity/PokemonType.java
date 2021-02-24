@@ -19,7 +19,7 @@ public class PokemonType {
 
     @Id
     @GeneratedValue
-    private Long id;
+    private Integer id;
     @NonNull
     private String name;
     @OneToMany(fetch = FetchType.EAGER, cascade=CascadeType.ALL)

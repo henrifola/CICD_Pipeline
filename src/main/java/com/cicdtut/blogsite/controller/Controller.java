@@ -24,6 +24,7 @@ public class Controller {
     }
     @GetMapping("/{type}")
     public PokemonType getPokemonByType(@PathVariable("type") String pType){
+
         return pokemonService.getPokemonByType(pType);
     }
 
